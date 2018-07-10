@@ -31,4 +31,11 @@
     + 5h moves the cursor 5 characters left
     + 3w moves the cursor 3 words forward
     + etc.
+## 07/09/2018
+
+* Run unix commands from within Vim
+    + From command mode, run :! unix_command
+    +Use the vim special character % for the current filename
+    + :shell or :sh will start a shell.  You can execute shell commands from here and return to Vim by exiting the shell with an exit command.:w
+    + !! without any text selected will let you run a command and then insert the result at your cursor position.
 
